@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Contenedor head que contiene las referencias al css, bootstrap-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="mycss/styles2.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body-vw-100">
+    <div class="container vw-100 p-0"></div>
+    <!--Contenedor header que contiene los enlaces dentro de un nav a los demas layouts-->
+    <header class="header vw-100 col-12 shadow-lg d-flex flex-row">
+      <!--Header tiene un nav que tiene los enlaces a los demas layouts-->
+      <nav class="navbar navbar-expand-sm navbar-light ">
+        <img class="col-md-1 col-2 m-3 rounded" src="Logo.png">
+        <button class="navbar-toggler m-6" type="button" data-toggle="collapse" data-target="#opciones">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="opciones"> 
+          <button id="dark-mode-toggle">Dark Mode</button>  
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex flex-sm-row">
+              <span class="material-symbols-outlined" href="#">Home</span>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item d-flex flex-sm-row ">
+              <span class="material-symbols-outlined" href="#">Devices</span>
+              <a class="nav-link" href="layout2.html">Devices</a>
+            </li>
+            <li class="nav-item d-flex flex-sm-row ">
+              <span class="material-symbols-outlined" href="#">sports_esports</span>
+              <a class="nav-link" href="layout3.html">Videogames</a>
+            </li>
+            <li class="nav-item d-flex flex-sm-row ">
+              <span class="material-symbols-outlined" href="Layout5.html">smart_toy</span>
+              <a class="nav-link" href="layout5.html">Merchadising</a>
+            </li>  
+            <li class="nav-item d-flex flex-sm-row ">
+              <span class="material-symbols-outlined" href="#">work</span>
+              <a class="nav-link" href="layout4.html">Work Here</a>
+            </li>          
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Contenedor main que tiene un carrito de la compra con los productos de layout devices-->
+    <main class="vw-100">
+      <div id="items" class="row vw-100"></div>
+      <hr></hr>
+      <span class="material-symbols-outlined">shopping_cart_checkout</span>
+      My shopping cart
+      <div id="carrito" class="col-sm-4"></div>
+      <hr>
+      Total:
+      <div id="total" class="col-sm-4"></div>
+      <button class="btn btn-primary" id="boton-vaciar">Buy</button>
+    </main>
+     <!--Contenedor Footer que contiene la informacion y enlaces de interes -->
+    <footer class="text-center vw-100 shadow-lg text-lg-start text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Social Networks:</span>
+        </div>
+        <div class="Redes sociales">
+          <a href="https://es-es.facebook.com/" class="  me-4 text-reset fa fa-facebook"></a>
+          <a href="https://twitter.com/?lang=es" class="me-4 text-reset fa fa-twitter"></a>
+          <a href="https://www.google.es/" class= "me-4 text-reset fa fa-google"></a>
+          <a href="https://www.instagram.com/" class="me-4 text-reset fa fa-instagram"> </a>
+          <a href="https://www.linkedin.com/in/jose-javier-galan-8b9b401a9/" class="me-4 text-reset fa fa-linkedin"></a>
+          <a href="https://github.com/" class="me-4 text-reset fa fa-github"></a>
+        </div>
+      </section>
+      <section class="contenido d-none d-sm-block">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h4 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Tech Alley
+              </h4>
+              <p>Tech Alley is the ideal place to find a wide variety of state-of-the-art technological devices, from computers and mobile phones to consoles and video games.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h4 class="text-uppercase fw-bold mb-4">Other Products</h4>
+              <p>
+                <a href="layout2.html" class="text-reset">PC</a>
+              </p>
+              <p>
+                <a href="layout2.html" class="text-reset">Phones</a>
+              </p>
+              <p>
+                <a href="layout3.html" class="text-reset">Game-Consoles</a>
+              </p>
+              <p>
+                <a href="Layout5.html" class="text-reset">Merchandising</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h4 class="text-uppercase fw-bold mb-4">Contact US</h4>
+              <p><span class="material-symbols-outlined" href="#">Home</span></i>Fernan Nuñez, Cordoba 14520 España</p>
+              <p><span class="material-symbols-outlined" href="#">mail</span>techalley@gmail.com</p>
+              <p><span class="material-symbols-outlined" href="#">phone</span></i> + 34 012 345 678</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <script src="myjs/darkmode.js"></script> 
+    <script src="myjs/shopping cart.js"></script>
+</body>
+</html>

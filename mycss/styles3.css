@@ -1,0 +1,103 @@
+body{
+    background-color: #f5e9d6;
+    overflow-x: hidden;
+}
+.header{
+    
+    background-color: #d9d3d3;
+}
+
+nav ul{
+    list-style: none;
+}
+main img{
+  margin-left:48px ;
+  margin-top: 10px;
+  width: 155px ;
+  height: 75px;
+}
+main h5{
+  margin-left: 35px;
+}
+main p{
+  margin-left: 35px;
+}
+main button{
+margin-left: 35px;
+}
+footer{
+    background-color: #d9d3d3;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #f5e9d6;
+
+}
+.header{
+    
+    background-color: #d9d3d3;
+}
+
+nav ul{
+    list-style: none;
+}
+footer{
+    background-color: #d9d3d3;
+}
+a{
+    text-decoration: none;
+} 
+  /*modo oscuro */
+  main.dark-mode {
+    background-color: rgb(38, 38, 38);
+    color: #fff;
+  }
+  body.dar-mode{
+    background-color: #333;
+  }
+  header.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  header.dark-mode a {
+    color: #fff;
+  }
+  footer.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  footer.dark-mode span {
+    color: white;
+  }
+  footer.dark-mode p{
+    color: white;
+  }
+  footer.dark-mode a {
+    color: white;
+  }
+  footer.dark-mode h4{
+    color: white;
+  }
+  footer.dark-mode div {
+    color: white;
+  }
+ /* estilos boton*/
+ #dark-mode-toggle {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #333;
+  color: #fff;
+}
+  
+  
+  
